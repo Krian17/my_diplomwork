@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/add_koleso_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddKolesoFragment"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textInputLayout"
+        app:errorEnabled="true">
+
+        <EditText
+            android:id="@+id/ed_EditText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите оценку и выберите пункт"
+            android:inputType="phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/Famaly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Семья">
+        </Button>
+
+        <Button
+            android:id="@+id/Contr_to_Her"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вклад в наследие">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Health"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Здоровье">
+        </Button>
+
+        <Button
+            android:id="@+id/Love"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Любовь">
+        </Button>
+
+        <Button
+            android:id="@+id/Educ_and_dev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Обучение и развитие">
+        </Button>
+
+        <Button
+            android:id="@+id/Money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Деньги">
+        </Button>
+
+        <Button
+            android:id="@+id/Career_growth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Карьерный рост">
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_list_result1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingTop="40dp">
+    </TextView>
+</LinearLayout>
